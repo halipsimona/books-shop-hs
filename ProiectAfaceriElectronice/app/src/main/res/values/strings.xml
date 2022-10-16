@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ProiectAfaceriElectronice</string>
+    <string name="login_in">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="next">Next</string>
+    <string name="name_err">Please enter a valid name!</string>
+    <string name="email_err">Please enter a valid email!</string>
+    <string name="address_err">Please enter a valid address!</string>
+    <string name="pass_err">Password must be over 6 characters, include capital letter(s) and (a) number(s)</string>
+    <string name="text">Text</string>
+    <string name="title_login">Log in to ProjectManager</string>
+    <string name="please_enter_the_email_and_password">Enter your credentials below.</string>
+    <string name="username_error">No account associated with this email</string>
+    <string name="password_error">Incorrect password</string>
+    <string name="login_pass_error">Please enter the password associated with your account.</string>
+    <string name="telephone">Telephone</string>
+    <string name="skip">Skip</string>
+    <string name="reg_user">Registering user...</string>
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="recom_details">We recommend pressing the SKIP button if you do not want to add a profile photo or a phone number yet.</string>
+    <string name="my_projects">My projects</string>
+    <string name="my_tasks">My tasks</string>
+    <string name="filter">Filter</string>
+    <string name="notifications">Notifications</string>
+    <string name="my_profile">My profile</string>
+    <string name="ok">OK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

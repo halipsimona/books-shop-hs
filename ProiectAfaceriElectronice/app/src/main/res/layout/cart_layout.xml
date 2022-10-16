@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/cart_book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/darkTextColor"
+        android:textSize="16sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/cart_book_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintTop_toBottomOf="@id/cart_book_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#000000"
+        android:textSize="12sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/cart_book_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintTop_toBottomOf="@id/cart_book_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#000000"
+        android:textSize="12sp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_inprogress"
+        android:id="@+id/btn_delete"
+        android:text="Sterge cartea din cos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cart_book_price">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

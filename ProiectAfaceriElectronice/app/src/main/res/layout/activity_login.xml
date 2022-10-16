@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/mainBackground"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_toolbar"
+        android:background="#4682b4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_toolbar_tv"
+            android:textAlignment="center"
+            android:text="@string/login_in"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:visibility="visible"
+            android:fontFamily="sans-serif-thin"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_tv_title"
+                android:layout_margin="8dp"
+                android:gravity="center_horizontal"
+                android:text="Log into our shop"
+                android:textAlignment="center"
+                android:textColor="@color/darkTextColor"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/login_tv_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/please_enter_the_email_and_password"
+                android:textAlignment="center"
+                android:textColor="@color/lightTextColor"
+                android:textSize="12sp"
+                android:textStyle="italic">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_cardview"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:layout_gravity="center_horizontal"
+                app:cardBackgroundColor="#ffffff"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    >
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/login_til_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/login_tiet_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/email"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/login_til_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/login_tiet_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/password"
+                            android:inputType="textWebPassword" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <EditText
+                        android:id="@+id/login_et_error"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12dp"
+                        android:textStyle="italic"
+                        android:text="Make sure that entered data is valid."
+                        android:editable="false">
+
+                    </EditText>
+
+                    <Button
+                        android:id="@+id/login_btn_next"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="sans-serif-thin"
+                        android:background="@color/blue_inprogress"
+                        android:text="@string/next"
+                        android:textColor="#ffffff"
+                        >
+
+                    </Button>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

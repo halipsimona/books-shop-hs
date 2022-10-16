@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartFragment"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainBackground"
+        android:id="@+id/fragment_my_cart_listview"
+        android:layout_margin='8dp'
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        />
+    <Button
+        android:id="@+id/finaliz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_inprogress"
+        android:text="Finalizeaza comanda"
+        android:layout_margin="8dp"
+        android:paddingBottom="32dp">
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "815293142712",
+    "project_id": "books-ecommerce-48657",
+    "storage_bucket": "books-ecommerce-48657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815293142712:android:52f5b01f11b21ee28dc64d",
+        "android_client_info": {
+          "package_name": "com.example.proiectafacerielectronice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815293142712-jhv2cga0f1g4vm89lm9i7al0bqrpk4ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfyosK0xNKt1Wc75H2oSCLYQQymD7s59A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815293142712-jhv2cga0f1g4vm89lm9i7al0bqrpk4ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
